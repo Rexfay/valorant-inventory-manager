@@ -4,9 +4,9 @@ from valclient import Client
 SERVER_VERSION = "1.0.0b2"
 
 # debug settings
-DEBUG = False # prints all log messages to console
-UNLOCK_ALL_SKINS = False # just for testing purposes, doesn't actually unlock anything
-UNLOCK_ALL_BUDDIES = False
+DEBUG = True # prints all log messages to console
+UNLOCK_ALL_SKINS = True # just for testing purposes, doesn't actually unlock anything
+UNLOCK_ALL_BUDDIES = True
 
 USE_TEST_DIRECTORY = False # use a different directory for testing purposes
 FORCE_ONBOARDING = False
@@ -61,7 +61,7 @@ DEFAULT_CONFIG = {
                 "type": "bool",
                 "display": "Prevent repeats",
                 "description": "If multiple skins are favorited, guarantee that a skin isn't repeated in the randomizer.",
-                "value": False,
+                "value": True,
             },
             "auto_skin_randomize": {
                 "type": "bool",
@@ -73,7 +73,7 @@ DEFAULT_CONFIG = {
                 "type": "bool",
                 "display": "Randomize skins after leaving range",
                 "description": "Automatically randomize favorite skins after leaving the range (DISABLE if you don't want your skins to randomize every time you leave the range)",
-                "value": False,
+                "value": True,
             }
         }
     },
