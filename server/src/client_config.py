@@ -8,8 +8,8 @@ DEBUG = True # prints all log messages to console
 UNLOCK_ALL_SKINS = True # just for testing purposes, doesn't actually unlock anything
 UNLOCK_ALL_BUDDIES = True
 
-USE_TEST_DIRECTORY = False # use a different directory for testing purposes
-FORCE_ONBOARDING = False
+USE_TEST_DIRECTORY = True # use a different directory for testing purposes
+FORCE_ONBOARDING = True
 AUTH_MODE = "local" # local or credentials
 CLIENT_STATE_REFRESH_INTERVAL = 5
 
